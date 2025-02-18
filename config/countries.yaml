@@ -1,0 +1,56 @@
+countries:
+  US:
+    name: United States
+    exchanges: [NYSE, NASDAQ, AMEX]
+    currency: USD
+    plugin: US
+  JP:
+    name: Japan
+    exchanges: [TYO, FSE]
+    currency: JPY 
+    plugin: JP
+  DE:
+    name: Germany
+    exchanges: [FRA, XETRA]
+    currency: EUR
+    plugin: DE
+  HK:
+    name: Hong Kong
+    exchanges: [HKG]
+    currency: HKD
+    plugin: HK
+  IN:
+    name: India
+    exchanges: [NSE, BSE]
+    currency: INR
+    plugin: IN
+  GB:
+    name: United Kingdom
+    exchanges: [LSE, AIM]
+    currency: GBP
+    plugin: GB
+  SG:
+    name: Singapore
+    exchanges: [SGX]
+    currency: SGD
+    plugin: SG
+  AU:
+    name: Australia
+    exchanges: [ASX]
+    currency: AUD
+    plugin: AU
+  CA:
+    name: Canada
+    exchanges: [TSX, CSE]
+    currency: CAD
+    plugin: CA
+  KR:
+    name: South Korea
+    exchanges: [KRX]
+    currency: KRW
+    plugin: KR
+  CH:
+    name: Switzerland
+    exchanges: [SIX]
+    currency: CHF
+    plugin: CH

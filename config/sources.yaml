@@ -1,0 +1,14 @@
+sources:
+  primary:
+    - name: Alpha Vantage
+      type: api
+      endpoint: https://www.alphavantage.co/query
+      key_env: ALPHA_VANTAGE_API_KEY
+  secondary:
+    - name: Bursa Malaysia
+      type: web
+      endpoint: https://www.bursamalaysia.com
+  fallback:
+    - name: Yahoo Finance
+      type: web
+      endpoint: https://finance.yahoo.com
